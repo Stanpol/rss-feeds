@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title><![CDATA[{{rss.title}}]]></title>
+        <link>{{rss.link}}</link>
+        <description><![CDATA[{{rss.description}}]]></description>
+        <generator>TFeed</generator>
+        <webMaster>tfeed@example.com</webMaster>
+        <language>en-us</language>
+
+        <lastBuildDate>{{rss.last_build_date}}</lastBuildDate>
+        <ttl>{{rss.ttl}}</ttl>
+        
+        {% for item in rss.feeds %}
+        <item>
+            <title><![CDATA[{{item.title}}]]></title>
+            <description><![CDATA[{{item.description}}]]></description>
+            <pubDate>{{item.pub_date}}</pubDate>
+            <guid isPermaLink="false">{{item.guid}}</guid>
+            <link>{{item.link}}</link>
+            <author><![CDATA[{{item.author}}]]></author>
+        </item>
+        {% endfor %}
+    </channel>
+</rss>
