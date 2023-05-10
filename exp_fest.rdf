@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title><![CDATA[EXPF – математическая статистика и эксперименты]]></title>
+        <link>https://t.me/exp_fest</link>
+        <description><![CDATA[Канал про эксперименты, статистику и анализ данных
+
+Черемисинов Виталий - @vitche
+Мирмахмадов Искандер - @iskndr_m
+A/B платформа Sigma – https://expf.ru/sigma
+Консалтинг – https://expf.ru
+Курс по экспериментам - https://expf.ru/ab_course]]></description>
+        <generator>TFeed</generator>
+        <webMaster>tfeed@example.com</webMaster>
+        <language>en-us</language>
+
+        <lastBuildDate>Wed, 10 May 2023 10:08:03 +0000</lastBuildDate>
+        <ttl></ttl>
+        
+        
+        <item>
+            <title><![CDATA[<b>Meet Dash-AB — The Statistics Engine of Experimentation at DoorDash</b><br/><...]]></title>
+            <description><![CDATA[<b>Meet Dash-AB — The Statistics Engine of Experimentation at DoorDash</b><br/><br/>Как устроена экспериментальная платформа в DoorDash<br/><br/><a href="https://doordash.engineering/2022/05/24/meet-dash-ab-the-statistics-engine-of-experimentation-at-doordash/" rel="noopener" target="_blank">https://doordash.engineering/2022/05/24/meet-dash-ab-the-statistics-engine-of-experimentation-at-doordash/</a>
+<blockquote>
+        <b>DoorDash Engineering Blog</b><br>
+        <b><a href="https://doordash.engineering/2022/05/24/meet-dash-ab-the-statistics-engine-of-experimentation-at-doordash/">Meet Dash-AB — The Statistics Engine of Experimentation at DoorDash</a></b><br>
+        <p>Learn how DoorDash was able to test uniformly according to established best practices and reuse complex statistical methods with Dash AB</p>
+        <img src="https://cdn4.telegram-cdn.org/file/eAtdD2NSbphXpRCEn_cMfsebJaNiLkK379Vn55uqAurt10bkVfv8PdjloNrszQxSC-5wFqLiGp-gcAYARqfhFPeLJseF-CLpN_4DnEDzetFNz8DT0ARa4acKsBY7gY5MmTtF8yByZNVI8n25znX3xWBgOfBkJdAaesXLuDWahm-7ycmrFYz5JZ2TxLghF5Ni_EtwmyBNQz6oawQ5IpWaXA0byneRsMDlG65Vwd4yS_z_PeYKR4QRb49_bVwNJrpnUaHGkmtds5mumqE9EhTf3rEZqBr92DV7WJXUkZzjJCcurCeSSUi6oTUdwVFfV7ckSQOM7soI4Nr2abIGk5EWtw.jpg" referrerpolicy="no-referrer">
+    </blockquote>]]></description>
+            <pubDate>2022-06-30T07:00:45+00:00</pubDate>
+            <guid isPermaLink="false"></guid>
+            <link>https://t.me/exp_fest/85</link>
+            <author><![CDATA[Iskαnder]]></author>
+        </item>
+        
+        <item>
+            <title><![CDATA[<b>P-values and surprising results</b><br/><i>Ron Kohavi</i><br/><br/>Бывают сит...]]></title>
+            <description><![CDATA[<b>P-values and surprising results</b><br/><i>Ron Kohavi</i><br/><br/>Бывают ситуации, когда заходит речь про интепретацию результатов, многие обращая внимания на p-value неправильно истолковывают его значение. Во многом это связано с тем, как некоторые коммерческие A/B-платформы объясняют своим пользователям, что 1-pvalue – это «уверенность» в победе treatment’а. <br/>В этом пейпере наглядно объясняется к каким результатам может привести неправильная интерпретация p-value<br/><br/><a href="https://onedrive.live.com/view.aspx?resid=8612090E610871E4!415400&amp;ithint=file,docx&amp;authkey=!ACert2pUTlADS44" rel="noopener" target="_blank">https://onedrive.live.com/view.aspx?resid=8612090E610871E4!415400&amp;ithint=file,docx&amp;authkey=!ACert2pUTlADS44</a>]]></description>
+            <pubDate>2022-07-11T06:48:01+00:00</pubDate>
+            <guid isPermaLink="false"></guid>
+            <link>https://t.me/exp_fest/86</link>
+            <author><![CDATA[Iskαnder]]></author>
+        </item>
+        
+        <item>
+            <title><![CDATA[<b>How Airbnb Safeguards Changes in Production</b><br/>Статья от Airbnb про их п...]]></title>
+            <description><![CDATA[<b>How Airbnb Safeguards Changes in Production</b><br/>Статья от Airbnb про их процесс выкатки A/B-тестов:<br/><br/><i>Introduction</i><br/><i>По мере того, как Airbnb выросла до компании с более чем 1200 разработчиками, количество платформ и каналов для внесения изменений в наш продукт — и количество ежедневных изменений, которые мы вносим в прод, — также значительно выросло. Перед лицом этого роста нам постоянно необходимо масштабировать возможности обнаруживать ошибки до того, как они попадут в рабочую среду. Однако ошибки неизбежно ускользают от предварительной проверки, поэтому мы также вкладываем значительные ресурсы в механизмы для быстрого обнаружения ошибок, когда они все же попадают в прод. В этом статье мы рассмотрим причины и фундамент системы защиты изменений в рабочей среде, которую мы называем безопасным развертыванием (Safe Deploys). В двух следующих постах будет подробно рассказано о технической архитектуре, о том, как мы применяли ее к традиционным A/B-тестам и развертыванию кода соответственно<br/></i><br/><a href="https://medium.com/airbnb-engineering/how-airbnb-safeguards-changes-in-production-9fc9024f3446" rel="noopener" target="_blank">https://medium.com/airbnb-engineering/how-airbnb-safeguards-changes-in-production-9fc9024f3446</a>
+<blockquote>
+        <b>Medium</b><br>
+        <b><a href="https://medium.com/airbnb-engineering/how-airbnb-safeguards-changes-in-production-9fc9024f3446">How Airbnb Safeguards Changes in Production</a></b><br>
+        <p>Part I: Evolution of Airbnb’s experimentation platform</p>
+        <img src="https://cdn4.telegram-cdn.org/file/mHq4nNavRHAbzW_VPWT0CerDq7m-OaMXFYL6sKl29RW5fso9ZRahsaRq15oL83tRwCmiwH-FDyRrCNV-GfXgWIYk0wnS-_ojsCaHVAqo70djLYj3Etc1Uv8CrnZ300YQGXHLPjGRiJJKTJ50P_kr0QauGh1wGcZjwpgHvkaB202AKna6FKPfkUTaDEg5gWVSJUgtE8gPIqu0OajHJMc57NE5cwn7CIZMEdlF1JON3lTi6jOBbEctf7sCIzNblMRj7Y_F0PdRW01OU4asi63R9QwN9A-NJ92t651nztwmobmE3k4uO9p3_gQroaJA2pNpGrr_dy-mDxPWIPMFsOVNow.jpg" referrerpolicy="no-referrer">
+    </blockquote>]]></description>
+            <pubDate>2022-07-14T08:00:46+00:00</pubDate>
+            <guid isPermaLink="false"></guid>
+            <link>https://t.me/exp_fest/87</link>
+            <author><![CDATA[Iskαnder]]></author>
+        </item>
+        
+        <item>
+            <title><![CDATA[Мой близкий друг Саша Сахнов - человек который на мой взгляд лучше всех разбирае...]]></title>
+            <description><![CDATA[Мой близкий друг Саша Сахнов - человек который на мой взгляд лучше всех разбирается в а/б тестах<br/><br/>Еще в далеком 2018 году мы с ним и рядом других людей начали писать на Хабр про А/Б.<br/>Сейчас он запустил цикл статей про А/Б, где каждая статья будет сложнее предыдущей - первая довольно базовая <a href="https://habr.com/ru/company/X5Tech/blog/679842/" onclick="return confirm('Open this link?\n\n'+this.href);" rel="noopener" target="_blank">статья про Бутстрап </a>(Обратите внимание на центральный доверительный интервал)<br/><br/>Также интересен <a href="https://habr.com/ru/company/X5Tech/blog/596279/" onclick="return confirm('Open this link?\n\n'+this.href);" rel="noopener" target="_blank">небольшой разбор стратификации</a> для повышения чувствительности тестов<br/>Еще можно посмотреть <a href="https://www.youtube.com/watch?v=8MzvjrWUJ_0&amp;amp;t=9s" onclick="return confirm('Open this link?\n\n'+this.href);" rel="noopener" target="_blank">это видео</a>
+<blockquote>
+        <b>Хабр</b><br>
+        <b><a href="https://habr.com/ru/company/X5Tech/blog/679842/">Бутстреп и А/Б тестирование</a></b><br>
+        <p>Привет, Хабр! В этой статье разберёмся, как с помощью бутстрепа оценивать стандартное отклонение, строить доверительные интервалы и проверять гипотезы. Узнаем, когда бутстреп незаменим, и в чём его...</p>
+        <img src="https://cdn4.telegram-cdn.org/file/DXcCoCAip8z-M4r48TiBFzkeJjZtxO-dSrCTrAi3R-JcUP9LmAsTgpAPMdj_YpHvo2mLIfeaEUcUqPvPQWfDoY5u-YSweaveN9zWIo7_NQwRaTCsE0G7022ZLbxTeXUJ8os9RkYu2c67izinB8d3MdHNajStTQjbS_3JcoC4N4rD2yEMrmKxOSg_eUs6_EOynaW63Ye-mKKlmHr6OY5DxmM59fsk9aa8__a67ThOq0kBglvMRgNwftCQ1dBNH8SL5GfDHZVdPw8xzHDydcmoNo3OJ2atIMQavDzHhKbvtKtFZFpGPQNVlYN4fPsAgxMMW1IrzTCzy3f89-a5DwV3kw.jpg" referrerpolicy="no-referrer">
+    </blockquote>]]></description>
+            <pubDate>2022-08-09T07:38:24+00:00</pubDate>
+            <guid isPermaLink="false"></guid>
+            <link>https://t.me/exp_fest/88</link>
+            <author><![CDATA[Iskαnder]]></author>
+        </item>
+        
+        <item>
+            <title><![CDATA[<b>Почему разные калькуляторы по расчету размера выборки дают разные результаты?...]]></title>
+            <description><![CDATA[<b>Почему разные калькуляторы по расчету размера выборки дают разные результаты?<br/></b><br/>Как объясняет Ronny Kohavi, основные отличия заключаются в 1) односторонняя vs. двухсторонняя проверка и 2) AVPV всегда требует больше наблюдений<br/><br/>Я бы сюда добавил еще 3) особенности софта (питон, R и программы для работы со статитистикой могут дать разные результаты) 4) ratio выборок, которое где-то учитывается/где то нет. Но если мы говорим про абсолютно одинаковые входные значения, то причины обусловлены ограничениями и косячностью при написании формулы (например, те, что полностью написаны на js) и то, что было упомянуто в 3) пункте<br/><br/>Подробное объяснение дал Ronny Kohavi:<br/><a href="https://docs.google.com/document/d/1dmXZwZ5yzfKe4Yg8tFr1Aot-LON8IZCs/edit" rel="noopener" target="_blank">https://docs.google.com/document/d/1dmXZwZ5yzfKe4Yg8tFr1Aot-LON8IZCs/edit</a>
+<blockquote>
+        <b>Google Docs</b><br>
+        <b><a href="https://docs.google.com/document/d/1dmXZwZ5yzfKe4Yg8tFr1Aot-LON8IZCs/edit">2022-09 Why are Power Calculators Giving Different Results.docx</a></b><br>
+        <p>Why are Power Calculators Giving Different Results? Ron Kohavi, 9/23/2022  Determining the sample size for an A/B test should be a trivial exercise, yet different online calculators give different results.  Here is my attempt to research the differences.…</p>
+        
+    </blockquote>]]></description>
+            <pubDate>2022-10-03T07:46:26+00:00</pubDate>
+            <guid isPermaLink="false"></guid>
+            <link>https://t.me/exp_fest/89</link>
+            <author><![CDATA[Iskαnder]]></author>
+        </item>
+        
+        <item>
+            <title><![CDATA[<b>Eat Your PEAs, Drink Your TEA. A Day in the Life of Reddit Experimentation</b...]]></title>
+            <description><![CDATA[<b>Eat Your PEAs, Drink Your TEA. A Day in the Life of Reddit Experimentation</b><br/><br/><a href="https://www.reddit.com/r/RedditEng/comments/xch2vb/eat_your_peas_drink_your_tea_a_day_in_the_life_of/" rel="noopener" target="_blank">https://www.reddit.com/r/RedditEng/comments/xch2vb/eat_your_peas_drink_your_tea_a_day_in_the_life_of/</a>
+<blockquote>
+        <b>reddit</b><br>
+        <b><a href="https://www.reddit.com/r/RedditEng/comments/xch2vb/eat_your_peas_drink_your_tea_a_day_in_the_life_of/">Eat Your PEAs, Drink Your TEA. A Day in the Life of Reddit...</a></b><br>
+        <p>Posted in r/RedditEng by u/sassyshalimar • 52 points and 1 comment</p>
+        
+    </blockquote>]]></description>
+            <pubDate>2022-10-13T07:53:10+00:00</pubDate>
+            <guid isPermaLink="false"></guid>
+            <link>https://t.me/exp_fest/90</link>
+            <author><![CDATA[Iskαnder]]></author>
+        </item>
+        
+        <item>
+            <title><![CDATA[<b>Мы ищем аналитика к себе в команду на консалтинговое направление<br/></b><br/...]]></title>
+            <description><![CDATA[<b>Мы ищем аналитика к себе в команду на консалтинговое направление<br/></b><br/>У EXPF сейчас два направления развития: <a href="https://expf.ru/sigma" onclick="return confirm('Open this link?\n\n'+this.href);" rel="noopener" target="_blank">платформа для A/B-тестов</a> и <a href="https://expf.ru/" onclick="return confirm('Open this link?\n\n'+this.href);" rel="noopener" target="_blank">консалтинг по A/B + продуктовая аналитика</a><br/><br/>Вам предстоит работать в команде аналитиков, которые развивают и оказывают аналитическую поддержку нашим клиентам. <br/><br/>Придется много работать с A/B, а также с традиционными задачами продуктовой/дата аналитики: адхоки, дашборды, реализация etl’ей в airflow и т.п.<br/><br/>Нужны знания python, sql, мат. стата и рабочий опыт от полугода для джунов и от года-полутора для миддлов<br/><br/>Подробности вакансии тут:<br/><a href="https://hh.ru/vacancy/71184627" rel="noopener" target="_blank">https://hh.ru/vacancy/71184627</a><br/><br/><b>Можно писать на почту </b><b>i@expf.ru</b><b> или мне в личку </b><a href="https://t.me/iskndr_m" target="_blank"><b>@iskndr_m</b></a>
+<blockquote>
+        <b>expf.ru</b><br>
+        <b><a href="https://expf.ru/sigma">EXPF Sigma</a></b><br>
+        
+        
+    </blockquote>]]></description>
+            <pubDate>2022-10-17T10:17:03+00:00</pubDate>
+            <guid isPermaLink="false"></guid>
+            <link>https://t.me/exp_fest/91</link>
+            <author><![CDATA[Iskαnder]]></author>
+        </item>
+        
+        <item>
+            <title><![CDATA[Мы все еще в поисках аналитика для расширения команды!<br/>Вакансия <a href="htt...]]></title>
+            <description><![CDATA[<div class="rsshub-quote">
+        <blockquote>
+            <p><a href="https://t.me/exp_fest/91"><b>EXPF – математическая статистика и эксперименты</b>:</a></p>
+            <p>Мы ищем аналитика к себе в команду на консалтинговое направление  У EXPF сейчас два направления развития: платформа для A/B-тестов и консалтинг по A/B + продуктовая аналитика  Вам предстоит работать в команде аналитиков, которые развивают и оказывают аналитическую…</p>
+        </blockquote>
+    </div>
+Мы все еще в поисках аналитика для расширения команды!<br/>Вакансия <a href="https://hh.ru/vacancy/71184627" rel="noopener" target="_blank">https://hh.ru/vacancy/71184627</a><br/><br/>Откликнуться <b>i@expf.ru</b><b> или в личку </b><a href="https://t.me/iskndr_m" target="_blank"><b>@iskndr_m</b></a>. <br/>Лучше на почту или тг, так будет быстрее. На hh отвечаем не оперативно
+<blockquote>
+        <b>hh.ru</b><br>
+        <b><a href="https://hh.ru/vacancy/71184627">Вакансия Junior/Middle Data analyst в Москве, работа в компании EXPF (вакансия в архиве c 15 ноября 2022)</a></b><br>
+        <p>Зарплата: до 150000 руб. Москва. Требуемый опыт: 1–3 года. Полная занятость. Дата публикации: 12.11.2022.</p>
+        <img src="https://cdn4.telegram-cdn.org/file/Gn64YbX6rMo_E3bXGUC3L_bqmC6FtBjJ2SIxHVoAuY8xhfD3IATPrpmgmiZbHv_O9P5pYmxdkHweOSkuFPf-mbezDd-0bMLl1jtf7K8dr3PTFe2o8RpHjt_4z_EvTEkJ9o-zuvE4c6ydns2_P6VaERHMT5w1qm0mnrASfD9C60wDyKOKhwPTZHDtxpTzITRQkjWUpH7i_MGR4cbzC52NMgolOmJNeZbMphdxy6yhKuY53i-G-BvH2X0FplgEvpzCJqkUzCCWFiFBPeP-3GXmQYilpAqsgvscRwZ9nmndvH44GpB7ZDhdwGqGGVS5TbfNm7POeUliI_wUq-wf_HWukQ.jpg" referrerpolicy="no-referrer">
+    </blockquote>]]></description>
+            <pubDate>2022-11-14T08:23:01+00:00</pubDate>
+            <guid isPermaLink="false"></guid>
+            <link>https://t.me/exp_fest/92</link>
+            <author><![CDATA[Iskαnder]]></author>
+        </item>
+        
+        <item>
+            <title><![CDATA[<b>Holdout / Holdback experiments</b><br/><br/>Вы наверняка слышали про практику...]]></title>
+            <description><![CDATA[<b>Holdout / Holdback experiments</b><br/><br/>Вы наверняка слышали про практику удерживания «глобального контроля» для сравнения с пользователями, которые участвуют в экспериментах. <br/><br/>Глобальный контроль (его еще называют «вечным») – группа пользователей, занимающая небольшую долю траффика (обычно от 1% до 8%), с котором сравнивается остальная часть экспериментальных пользователей.<br/><br/>Это позволяет затем сравнивать метрики между пользователями, которые получают эксп. опыт, и теми пользователями, которые удерживаются (holding out) от каких-либо изменений. В результате мы можем определить кумулятивное долгосрочное влияние изменений.<br/><br/>В биг техе распространена практика использование holdout’ов поквартально. Держим holdout квартал -&gt; смотрим совокупный импакт от нашей работы и далее распространяем результаты на квартальные OKR/KPI <br/><br/>Почитать как это делают:<br/>- <a href="https://www.etsy.com/codeascraft/understanding-the-collective-impact-of-experiments" onclick="return confirm('Open this link?\n\n'+this.href);" rel="noopener" target="_blank">Understanding the collective impact of experiments</a><br/>- <a href="https://medium.com/disney-streaming/universal-holdout-groups-at-disney-streaming-2043360def4f" onclick="return confirm('Open this link?\n\n'+this.href);" rel="noopener" target="_blank">Universal Holdout Groups at Disney Streaming</a><br/>- <a href="https://engineering.atspotify.com/2020/11/spotifys-new-experimentation-platform-part-2/" onclick="return confirm('Open this link?\n\n'+this.href);" rel="noopener" target="_blank">Spotify’s New Experimentation Platform (Part 2)</a>
+<blockquote>
+        <b>Etsy Engineering</b><br>
+        <b><a href="https://www.etsy.com/codeascraft/understanding-the-collective-impact-of-experiments">Etsy Engineering | Understanding the collective impact of experiments</a></b><br>
+        <p>Autonomous experimentation is an integral part of Etsy’s product development cycle. Each team designs and runs its own experiments...</p>
+        <img src="https://cdn4.telegram-cdn.org/file/HlakgSbEROrE0tv8tGT897CtdzYUDtfWBtQGoC7zjN3y3atSS_j36U2XfoaORED3CfEN9USXedETMMC_noCgFt0d0wVYWdaL97cpGbAa4QKMTjb8p95_qDL0EE5asN8y-9lvLYYoSKSkjPl_7I645H-wLKWypCLmG9xKLGQ1P_MXv-v1D5DuAtZ5VKUhXDUWzaur-BhXQxIwoaGlqAzvVMiKuOLg7O_Qn-t23odSZlzIOD4Kpu3sizBqKZpfqIyRDuuQOd1ZtUb0u5VKA5JLeOCNIiB0cm5UlgBDk4c2fHp8CnryMsnaX9riJf29WFLaNq5M9f8h0QE8SMR2hfNc8w.jpg" referrerpolicy="no-referrer">
+    </blockquote>]]></description>
+            <pubDate>2022-12-11T11:41:06+00:00</pubDate>
+            <guid isPermaLink="false"></guid>
+            <link>https://t.me/exp_fest/93</link>
+            <author><![CDATA[Iskαnder]]></author>
+        </item>
+        
+        <item>
+            <title><![CDATA[Записался и подушнил в подкасте «Форточку открой»<br/><br/>Слушать в<br/><a href...]]></title>
+            <description><![CDATA[Записался и подушнил в подкасте «Форточку открой»<br/><br/>Слушать в<br/><a href="https://podcasts.apple.com/ru/podcast/%D0%BA%D0%BE%D0%BC%D1%83-%D0%BD%D1%83%D0%B6%D0%BD%D1%8B-%D0%B0-%D0%B2-%D1%82%D0%B5%D1%81%D1%82%D1%8B-%D0%B8%D1%81%D0%BA%D0%B0%D0%BD%D0%B4%D0%B5%D1%80-%D0%BC%D0%B8%D1%80%D0%BC%D0%B0%D1%85%D0%BC%D0%B0%D0%B4%D0%BE%D0%B2/id1642209722?i=1000588959866" onclick="return confirm('Open this link?\n\n'+this.href);" rel="noopener" target="_blank">Apple Podcasts</a><br/><a href="https://music.yandex.ru/album/23340787/track/109608114?activeTab=about&amp;amp;dir=desc" onclick="return confirm('Open this link?\n\n'+this.href);" rel="noopener" target="_blank">Яндекс Музыка</a>
+<img src="https://cdn4.telegram-cdn.org/file/Vkw-JCAKZU1IeyEJcfIC7D-LKu-6e3288r7d7vx-5V1H4X4EiiyUIkqZQRaNBezoIXciKvB_FtSdsYs1wamaVlPjvqdSCW6y3FZXMEXQQRndDRl6lBuCiQ7Jb_0y0_G3iSQjVvKGDlsCjOb-RIWpYYbWHLiwP25WOsQutfR5MbnmNzBQ6zpk4jdDcOgPiOLah64PEtdW5BnwehMCE8asdrz1TQ7wuZd7h-1sjjL0sIbJ54L90BkCwFCPj2kwtLgXRv9h9OsFS9WW7jYzcF0I5_ask4WmsC8gueROC5AU-AKmLbtdNb661LQ7dhwcOPuUfuFm7yv5SsxQ3qzvKELU_A.jpg" referrerpolicy="no-referrer">]]></description>
+            <pubDate>2022-12-12T07:30:42+00:00</pubDate>
+            <guid isPermaLink="false"></guid>
+            <link>https://t.me/exp_fest/94</link>
+            <author><![CDATA[Iskαnder]]></author>
+        </item>
+        
+        <item>
+            <title><![CDATA[<b>Как использовать суррогатные метрики, чтобы не ждать долго?</b><br/><br/>Попа...]]></title>
+            <description><![CDATA[<b>Как использовать суррогатные метрики, чтобы не ждать долго?</b><br/><br/>Попался под руки пейпер от 2019 года от LinkdeIn, где они рассказывают подход по поиску суррогатных (прокси) метрик для более быстрого проведения экспериментов, если целевая метрика – north star. Как заверяют авторы, зная что прокрасилась суррогатная метрика, значит прокрасится и north star (например, north star – ltv, суррогатная – retention). <br/><br/>В статье куча интересных формул для расчета ошибки, дисперсии, статистики и т.п., чтобы отвалидировать суррогат. Если коротко, то TLDR такой:<br/><br/>1. Определите свою north star. Метрики определяют успех/неудача эксперимента (можно считать, что это OEC)<br/><br/>2. Разработайте суррогатную метрику, предсказав north star. Фичи предсказанной north star должны быть уловимыми в течение всего эксперимента.<br/><br/>3. Используйте суррогатную метрику в эксперименте. Обратите внимание, что при расчете статистической значимости мы должны скорректировать дисперсию, чтобы учесть ошибку прогноза в модели. Формулы там даны<br/><br/><a href="https://arxiv.org/pdf/2106.01421v1.pdf" onclick="return confirm('Open this link?\n\n'+this.href);" rel="noopener" target="_blank">Читать здесь</a>
+<img src="https://cdn4.telegram-cdn.org/file/N35Y2BgOb2tQz20eMir4ckN60kNJYwgfPeZcd5nuah5H7eFjHdx5JB_PiqXckADGOSB-nfVg0ylOgtTagdW8YdUs4sEzXJqIAWbpyeCp3GlyExVNNslGOwGKrOCl0j3jTdYcwTnTHyHUfWmoQmWhgJImFsp6XNSHJpovqB0ZaKxockeGiVhHD0kQBmtaool9ZILl6xrEeILih3tZvLwL5cdLCxT8PyorVYQbOhTgyOekv5ruGcrLltaL0zZZeU5A9vM3o6nqsbXVS1K59bpcW0uavHad812VuDDauzMbfW4cuVgVqQRcOtjZE0M5eZne2K5hnMu8eIytTcjpo6Noww.jpg" referrerpolicy="no-referrer">]]></description>
+            <pubDate>2022-12-23T15:11:02+00:00</pubDate>
+            <guid isPermaLink="false"></guid>
+            <link>https://t.me/exp_fest/95</link>
+            <author><![CDATA[Iskαnder]]></author>
+        </item>
+        
+        <item>
+            <title><![CDATA[И код есть!)<br/><a href="https://anonymous.4open.science/r/b25ed0d0-5759-4a13-a...]]></title>
+            <description><![CDATA[И код есть!)<br/><a href="https://anonymous.4open.science/r/b25ed0d0-5759-4a13-a65a-a02c80cbcb8a/simulation4_1.R" rel="noopener" target="_blank">https://anonymous.4open.science/r/b25ed0d0-5759-4a13-a65a-a02c80cbcb8a/simulation4_1.R</a>]]></description>
+            <pubDate>2022-12-23T15:30:08+00:00</pubDate>
+            <guid isPermaLink="false"></guid>
+            <link>https://t.me/exp_fest/96</link>
+            <author><![CDATA[Iskαnder]]></author>
+        </item>
+        
+        <item>
+            <title><![CDATA[<b>Deep Dive Into Variance Reduction</b><br/><br/>Новая статья от Microsoft про ...]]></title>
+            <description><![CDATA[<b>Deep Dive Into Variance Reduction</b><br/><br/>Новая статья от Microsoft про CUPED<br/><br/><a href="https://www.microsoft.com/en-us/research/group/experimentation-platform-exp/articles/deep-dive-into-variance-reduction/" onclick="return confirm('Open this link?\n\n'+this.href);" rel="noopener" target="_blank">Читать здесь</a>
+<blockquote>
+        <b>Microsoft Research</b><br>
+        <b><a href="https://www.microsoft.com/en-us/research/group/experimentation-platform-exp/articles/deep-dive-into-variance-reduction/">Deep Dive Into Variance Reduction - Microsoft Research</a></b><br>
+        <p>Variance reduction is the use of alternative estimators, like CUPED, to improve the difference-in-means estimator and effectively multiply observed traffic in an A/B test. </p>
+        <img src="https://cdn4.telegram-cdn.org/file/P5UrYPwxfr7t21ZL4GUlHHcIa6MxEvp9yDJgaxGQckPKbSoj97gQnT2I43tIrFxSzL3iz9L1HEPP6CeSZ4PHpEOSBpO8gq4rufIagnGjv1m39g6weGyth0xbd6ZEn7SFeI00e50HUOilkDXpEQNPYQxfQx_3OlAoUfnug9OBNKevrE4vYp19yvOv1rKkbTOc0NTHMyOkwoN2SBbrXSBtVRlqAR_okp0GR_hie8iT2dwe5sLgdtvEWTtKoqRn0Zp2wpwtrBXKCqMFj5Kvt_ZJDPMIm6wLQF0x9f_kOMfOwidHjmG84_p4C6NKhdEu-qFvz2Xdg4dGtfsZJG4zzlsEwQ.jpg" referrerpolicy="no-referrer">
+    </blockquote>]]></description>
+            <pubDate>2022-12-26T07:43:01+00:00</pubDate>
+            <guid isPermaLink="false"></guid>
+            <link>https://t.me/exp_fest/97</link>
+            <author><![CDATA[Iskαnder]]></author>
+        </item>
+        
+        <item>
+            <title><![CDATA[<b>Шесть причин, почему ваши A/B-тесты не работают</b><br/>Озон написали статью ...]]></title>
+            <description><![CDATA[<b>Шесть причин, почему ваши A/B-тесты не работают</b><br/>Озон написали статью с перечислением нескольких концептов, которые необходимо знать перед анализом экспериментов. Для тех кто еще не знаком с понятиями FWER, MDE и дельта-метод будет полезно.<br/><br/>От себя добавлю, что формула у MW-теста в статье несовсем верная. В статье указано, что гипотеза у MW-теста проверяет наличие сдвига на дельту всего распределения. Корректной гипотезой является <i>сравнение каждого наблюдения</i> x_i<i>  в первой выборке с каждым наблюдением </i>y_i<i> в другой выборке</i>:<br/><br/>H_0: P(x_i &lt; y_j) = 0.5<br/>H_1: P(x_i &lt; y_j) ≠ 0.5<br/><br/><a href="https://habr.com/ru/company/ozontech/blog/712306/" rel="noopener" target="_blank">https://habr.com/ru/company/ozontech/blog/712306/</a>
+<blockquote>
+        <b>Хабр</b><br>
+        <b><a href="https://habr.com/ru/company/ozontech/blog/712306/">Шесть причин, почему ваши A/B-тесты не работают</a></b><br>
+        <p>Всем привет!  В прошлой статье, посвящённой A/B-тестированию , мы коснулись технических деталей устройства нашей A/B-платформы, которая обеспечивает нам супербыстрое распределение пользователей...</p>
+        <img src="https://cdn4.telegram-cdn.org/file/v0-By40xZ9m2u75XPTLW0OYLqfL4u9WCBOJLzPfhaqe1h152b6cVouZOeOSjlZ-l1XYQ4X5sPaQM5fqxDucK2CO2tw1jpafCwsxHTsN9yLpUwyaeWL_fOUJODC9WS2_FPeDsoC1AMoTHy6wYkUymgUAukq4EGke8-LhGOfSqT1JNbUiEKtMBTRhWjv0JeRNzPqGaC2QRCsA2MdU72vsl7AADpAr_QMiNx491XXeU478cqWpf3W9RJMlJXt7q6M8-BWGp5YL3f-2xd6DpPyP-b_I_tPFDswYMKhOo9wHE8MIlDp-3ifUHmXosO8klfOJuoGJsz2uMO-nqImKwjnRZWw.jpg" referrerpolicy="no-referrer">
+    </blockquote>]]></description>
+            <pubDate>2023-02-10T11:35:12+00:00</pubDate>
+            <guid isPermaLink="false"></guid>
+            <link>https://t.me/exp_fest/98</link>
+            <author><![CDATA[Iskαnder]]></author>
+        </item>
+        
+        <item>
+            <title><![CDATA[Ищем middle-аналитика в команду EXPF!<br/>Вакансия <a href="https://hh.ru/vacanc...]]></title>
+            <description><![CDATA[Ищем middle-аналитика в команду EXPF!<br/>Вакансия <a href="https://hh.ru/vacancy/78091483" rel="noopener" target="_blank">https://hh.ru/vacancy/78091483</a><br/><br/>Откликнуться <b>i@expf.ru</b><b> или в личку </b><a href="https://t.me/iskndr_m" target="_blank"><b>@iskndr_m</b></a>. <br/>Предпочтительно на почту или тг
+<blockquote>
+        <b>hh.ru</b><br>
+        <b><a href="https://hh.ru/vacancy/78091483">Вакансия Middle Data analyst в Москве, работа в компании EXPF (вакансия в архиве c 14 апреля 2023)</a></b><br>
+        <p>Зарплата: не указана. Москва. Требуемый опыт: 1–3 года. Полная занятость. Дата публикации: 14.04.2023.</p>
+        <img src="https://cdn4.telegram-cdn.org/file/pYKksmjFm5SvkZD9D3JCz_Cv_eSQ5frvlyNpVIEL6-vZWMi4TVvhyD3v5UMxFR7ubcNyrAV35y3mVSZB73x3t7NrVVbT0q9dRn2VRnJ1ubhbFGwGaH2YL8itIganz-iDWgqyB0Q-UY7u96yZBLizJ569sQlkKsBNH_dHYIu8hv7Jeym61c2pXZvHbNiLDMicfeDZyqokuZqM-TuSjJnUeQqiNBY-LAiWWdKEpbLdAAx26GMFJE_m2NYHs4RRTXeXDYCoGczxzFFdWomB5_qEj0Vrzw_fiVYRpFcggUK0aRHO2oYl0h18tzObFacdjodw-8JqcIy5dcxDbEMGpgWemQ.jpg" referrerpolicy="no-referrer">
+    </blockquote>]]></description>
+            <pubDate>2023-03-15T12:06:22+00:00</pubDate>
+            <guid isPermaLink="false"></guid>
+            <link>https://t.me/exp_fest/99</link>
+            <author><![CDATA[Iskαnder]]></author>
+        </item>
+        
+        <item>
+            <title><![CDATA[<b>У </b><a href="http://Sravni.ru/" rel="noopener" target="_blank"><b>Sravni.ru...]]></title>
+            <description><![CDATA[<b>У </b><a href="http://Sravni.ru/" rel="noopener" target="_blank"><b>Sravni.ru</b></a><b> вышла статья об их пути от in-house A/B-платформы к внешнему решению.</b><br/><br/>В статье описано как они валидировали внутренний и внешний инструменты, на что делали акцент при выборе и что, собственно, узнали по итогам пройденного пути<br/><br/>Небольшой спойлер: внешним инструментом выступала наша система менеджмента экспериментов и фича флагов EXPF Sigma<br/><br/>Читать на хабре:<br/><a href="https://habr.com/ru/company/sravni/blog/723662/" rel="noopener" target="_blank">https://habr.com/ru/company/sravni/blog/723662/</a>
+<blockquote>
+        <b>Хабр</b><br>
+        <b><a href="https://habr.com/ru/company/sravni/blog/723662/">Особенности и подводные камни A/B/n-тестирования</a></b><br>
+        <p>Всем привет! Меня зовут Николай Полушкин, я продуктовый аналитик в финансовом маркетплейсе Сравни. Недавно мы проводили тест-драйв новой системы A/B/n-тестирования, которую планируем внедрить в нашей...</p>
+        <img src="https://cdn4.telegram-cdn.org/file/LfR-zBk1K6ChLaM6xGR8Hu8ib98IMrIhUpo4D9Wf1qNk5VpjZG_EpCgmfbCKFTvdMX8GXtlv7AHOx7dknZ_xqubpZur_hS0Ej7-xdGYkfnZT8uTz0rtpz61BDKLBJBF_YmiCaLoDJ8mPIPVHZN8-gPW2FKektbOm7w4VET16yGCyTsgaPyZ-jr-v9PEMEA1QTNk_sJ3epJ7oDc64icj4iOwGWLH-_1IoeUeasgfObLgF8-1WsgTjqaOVJT5_6s8vEG2l1v_7wy2lPJrwAu0KVSEHfNK7_3Z-H00J_sT2xEtrsLBB0OZKfe_8a2ddVhNJQMhq4mivm-JVsiuNFO1_nQ.jpg" referrerpolicy="no-referrer">
+    </blockquote>]]></description>
+            <pubDate>2023-03-22T12:02:09+00:00</pubDate>
+            <guid isPermaLink="false"></guid>
+            <link>https://t.me/exp_fest/100</link>
+            <author><![CDATA[Iskαnder]]></author>
+        </item>
+        
+        <item>
+            <title><![CDATA[<b>Choosing Sequential Testing Framework — Comparisons and Discussions</b><br/><...]]></title>
+            <description><![CDATA[<b>Choosing Sequential Testing Framework — Comparisons and Discussions</b><br/><br/>Spotify исследовали инструменты последовательного тестирования (GST; AVI: MSPRT, GAVI; множественные коррекции и тп). <br/>Выводы неоднозначные, как это обычно бывает в такого рода исследованиях («если у вас так, то…, а если нет, то…»). Тем не менее, очень интересный пейпер, который позволит вам лучше подготовиться к выбору инструмента у себя в работе<br/><br/><a href="https://engineering.atspotify.com/2023/03/choosing-sequential-testing-framework-comparisons-and-discussions/" rel="noopener" target="_blank">https://engineering.atspotify.com/2023/03/choosing-sequential-testing-framework-comparisons-and-discussions/</a>
+<blockquote>
+        <b>Spotify Engineering</b><br>
+        <b><a href="https://engineering.atspotify.com/2023/03/choosing-sequential-testing-framework-comparisons-and-discussions/">Choosing Sequential Testing Framework — Comparisons and Discussions</a></b><br>
+        
+        <img src="https://cdn4.telegram-cdn.org/file/vpreCZk9aOco_p1Q0EoTRuqyJmqoN1XnaYpXGew9VLp3wg_7DxZ1a0dIPgkBJf8OWfVMIhBXdGqBlG8M1hAZgETJ13C_Mm6k5JPUjdBiefjrjzvWg6B8eHdbrXo2SthFupxPoHh9rTYx9Vz0eYznpED4MvuDO7YUKt7axLjWWl7XkZFGMuTQs6yiCOVX7-lJqCDmNn9CtxI4rkBiwYEAl46jHNf-rVDmzDZQRBQfh2PF9LSmYwgGxTElQVe5aiQfh1sA1ZhUCLHlELYMY8MjVBC8EglEzgVttzCrwtp4bph3603GqAk_TAgduAAcn0olI7C__dCjZia2XwbpysdskA.jpg" referrerpolicy="no-referrer">
+    </blockquote>]]></description>
+            <pubDate>2023-03-24T11:16:01+00:00</pubDate>
+            <guid isPermaLink="false"></guid>
+            <link>https://t.me/exp_fest/101</link>
+            <author><![CDATA[Iskαnder]]></author>
+        </item>
+        
+        <item>
+            <title><![CDATA[No title...]]></title>
+            <description><![CDATA[
+<img src="https://cdn4.telegram-cdn.org/file/fAFrBzeTPHR8_dmLE7qAT2nNiAekJVkkybLUZUJqSyziCE2R5PVUx7ynI7ZQZMyg_OLqJ-RO4kzxrghw2k4VZsBZWochU0Q50_r4e3PdGSp8_dlBNrWgTPixiZEONrvsaDTb1tO7Jpfv_CScxkI84czUMZTB3oS60orgyIcOZ7bOYLAOEKdid4f1TeiOJ5mU2iVFxOGYqCeRCKa5Wi4lcUFun_FoqOH1Nd3qoBHFhz3gJcOg4c7SRh2l25Iw1X2gG-EW_sgnEuoqTjgIVo23-OUITe5DL0lKIE8LYawBtv0-vQWVNcV6YhWSOpknl14l6T2X5OHSnXgHFxKjo08QYQ.jpg" referrerpolicy="no-referrer">]]></description>
+            <pubDate>2023-04-02T14:31:38+00:00</pubDate>
+            <guid isPermaLink="false"></guid>
+            <link>https://t.me/exp_fest/102</link>
+            <author><![CDATA[Iskαnder]]></author>
+        </item>
+        
+        <item>
+            <title><![CDATA[<b>Немного истории про эксперименты</b><br/><br/>Решил разбавить формат постов с...]]></title>
+            <description><![CDATA[<b>Немного истории про эксперименты</b><br/><br/>Решил разбавить формат постов с пейперами чем-то отвлеченным, но близким к нашей тематике. Давайте попробую рассказать про первый опыт проведения рандомизированых экспериментов в истории.<br/><br/>В 1885 году Пирс (Charles Sanders Peirce) и Джастроу (Joseph Jastrow) провели серию экспериментов, чтобы определить, как влияние ожиданий может искажать результаты научных исследований. Они использовали слепой подход и рандомизацию для минимизации потенциальных смещений и предубеждений.<br/><br/>Эти эксперименты стали основой для развития слепых и рандомизированных методов в научных исследованиях. Тем не менее, их исследования не были широко известны и признаны на тот момент, и только позже, в середине 20-го века, их методы стали более популярными и распространенными, особенно благодаря работам Гарри Голда и Остина Брэдфорд Хилла (про них напишу отдельно, если формат вам зайдет)<br/><br/>Чарльз Сандерс Пирс и Джозеф Джастроу были американскими психологами и философами, работавшими в области психологии и логики. <br/><br/>В их эксперименте они использовали серию карт, которые могли быть подняты на разные высоты. Задача испытуемых заключалась в том, чтобы определить, насколько высоко была поднята карта, опираясь на свои собственные ощущения и восприятие. Экспериментатор заранее знал, какая карта была поднята на определенную высоту, но испытуемые этого не знали.<br/><br/>Пирс и Джастроу использовали слепой подход, чтобы убедиться, что испытуемые не могли знать или догадываться, какая карта была поднята. Таким образом, они исключили возможность того, что предварительные знания или ожидания испытуемых могут повлиять на результаты эксперимента. Кроме того, они использовали рандомизацию для случайного выбора карт, чтобы убедиться, что результаты не были смещены из-за каких-либо систематических ошибок или неправильного выбора карт.<br/><br/>Эксперименты Пирса и Джастроу дали понимание о том, как важно использовать слепые и рандомизированные методы в научных исследованиях для получения более точных и объективных результатов. Однако, как я уже упоминал ранее, их вклад в развитие слепых рандомизированных экспериментов был признан и широко распространен только позднее, в середине 20-го века, особенно в медицине<br/><br/>Ставьте реакции на пост, пойму стоит ли продолжать писать такие посты <i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/F09F9982.png')"><b>🙂</b></i>]]></description>
+            <pubDate>2023-04-02T14:31:39+00:00</pubDate>
+            <guid isPermaLink="false"></guid>
+            <link>https://t.me/exp_fest/103</link>
+            <author><![CDATA[Iskαnder]]></author>
+        </item>
+        
+        <item>
+            <title><![CDATA[<b>Monte Carlo Simulations: Separating Signal from Noise in Sampled Success Metr...]]></title>
+            <description><![CDATA[<b>Monte Carlo Simulations: Separating Signal from Noise in Sampled Success Metrics</b><br/><br/>МС симуляции являются наиболее полезным инструментом в исследованиях, особенно в контексте A/B-тестов. Я уже и не вспомню исследовательские проекты, где мы бы не прибегали к ним. Новая метрика? МС. Как лучше оптимизировать ее? МС. И так далее. Коротко о том, что это:<br/><br/>Симуляцию Монте-Карло можно использовать для создания набора случайных входных данных, основанных на предположениях реального мира. Это делается путем подачи этих входных данных через функцию, которая аппроксимирует реальную ситуацию, представляющую интерес. Выходными данными могут быть выражены в вероятностях возможных результатов при разных сценариях.<br/><br/>Иначе говоря, мы делаем 1000 симуляционных A/B и смотрим как ведет себя метрика, усредняя результат. Вариативность контекстов, в которых воссоздается поведение метрики ограниченно только вашими целями. Мы уже ранее писали у себя в блоге про МС, где продемонстрировали прогнозирование времени на эксперимент. <br/><br/>Сегодня хочу с вами поделиться неплохой статьей от Shopify, где приведены примеры с кодом применения МС<br/><br/><a href="https://shopify.engineering/monte-carlo-simulations-sampled-success-metrics" rel="noopener" target="_blank">https://shopify.engineering/monte-carlo-simulations-sampled-success-metrics</a>
+<blockquote>
+        <b>Shopify</b><br>
+        <b><a href="https://shopify.engineering/monte-carlo-simulations-sampled-success-metrics">Monte Carlo Simulations: Separating Signal from Noise in Sampled Success Metrics</a></b><br>
+        <p>Check out this guide for using a Monte Carlo simulation to identify the size and confidence percentage of your sampled success metric.</p>
+        <img src="https://cdn4.telegram-cdn.org/file/Cto7_4hbVkLcxrwGyTpJkrLahueCIbaNw4Z6ku6_h1dJ69G8MqKNCkzdNeZRq004yOxE0cfHN7Kv29v9POyCUeoB0QWvKo6vn13TSulcBSSaUym6a-c5DAOBB75QW4AU2UQUQBbzrbQQ2HM59ZTPZS5AUEtKmq1cPI0v4p40YTLMlZtQG1Ls238yl_qoGlLbBFqZZnt5ynRyxaD-eyHZLdIt3TX6ZL95zz7CtyymZAzqwxtHOm625u4JJifGkHuhpOh8ARb_kpCpX9XRCrctXelwNbOsIv0UVVTuHdijJDJY2XxwOjI76qjtncz332NRjyvyOscPiqXnS6N0hMStFg.jpg" referrerpolicy="no-referrer">
+    </blockquote>]]></description>
+            <pubDate>2023-04-13T08:32:01+00:00</pubDate>
+            <guid isPermaLink="false"></guid>
+            <link>https://t.me/exp_fest/104</link>
+            <author><![CDATA[Iskαnder]]></author>
+        </item>
+        
+    </channel>
+</rss>

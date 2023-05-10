@@ -1,0 +1,40 @@
+on:
+  push:
+  schedule:
+  - cron: '59 * * * *'
+concurrency: cron
+defaults:
+  run:
+    shell: bash
+jobs:
+  cron:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+    - uses: actions/checkout@v3
+    - name: Set up worktrees
+      run: |-
+        git fetch --no-tags --prune --depth=1 origin +refs/heads/*:refs/remotes/origin/*
+        git worktree add gh-pages gh-pages
+    - uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'
+    - name: Install dependencies
+      run: pip3 install -r requirements.txt
+    - name: Check feeds
+      timeout-minutes: 5
+      run: ./app.py
+    - name: Commit if dirty
+      run: |-
+        git config --global user.name 'GitHub Actions'
+        git config --global user.email "$(whoami)@$(hostname --fqdn)"
+        dirty() {
+        	[ -n "$(git status --porcelain)" ]
+        }
+        push() {
+        	git add --all
+        	git commit --amend --reset-author --message "${2:-automatic commit}"
+        	git push --force
+        }
+        (cd gh-pages; if dirty; then push; fi)
