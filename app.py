@@ -65,7 +65,7 @@ def parse_content(raw_news: str) -> BeautifulSoup:
 def parse_rss(soup: Tag, url: str, feeds: list[Feed]) -> Rss:
     """Extract title, description, link from root tag."""
     return Rss(
-        title=soup.find('meta', {'property': 'og:title'})['content'].text,
+        title=soup.find('meta', {'property': 'og:title'})['content'],
         description=soup.find('meta', {'property': 'og:description'})['content'],
         link=url.replace('t.me/s/', 't.me/'),
         last_build_date=datetime.now(tz=ZoneInfo('UTC')).strftime('%a, %d %b %Y %H:%M:%S %z'),
@@ -141,7 +141,7 @@ def parse_feed(feed_tag: Tag) -> Feed:
         else:
             description = text_content.decode_contents()
 
-    title = description[:TITLE_LENGTH] or 'No title'
+    title = text_content.find('div', {'class': 'js-message_text'}).find('b').text.strip() or 'No title'
     images = feed_tag.find_all('a', {'class': 'tgme_widget_message_photo_wrap'})
     for image in images:
         image_text = parse_image(image)
