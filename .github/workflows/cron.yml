@@ -1,7 +1,7 @@
 on:
   push:
   schedule:
-  - cron: '5 * * * *'
+  - cron: '12 5 * * *'
 concurrency: cron
 defaults:
   run:

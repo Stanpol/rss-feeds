@@ -65,7 +65,7 @@ def parse_content(raw_news: str) -> BeautifulSoup:
 def parse_rss(soup: Tag, url: str, feeds: list[Feed]) -> Rss:
     """Extract title, description, link from root tag."""
     return Rss(
-        title=soup.find('meta', {'property': 'og:title'})['content'],
+        title=soup.find('meta', {'property': 'og:title'})['content'].text,
         description=soup.find('meta', {'property': 'og:description'})['content'],
         link=url.replace('t.me/s/', 't.me/'),
         last_build_date=datetime.now(tz=ZoneInfo('UTC')).strftime('%a, %d %b %Y %H:%M:%S %z'),
@@ -213,7 +213,16 @@ async def get_rss_feed(channel: str) -> str:
     return render_rss(rss)
 
 async def main():
-    for channel in ['exp_fest']:
+    for channel in ['exp_fest',
+                    'reliable_ml',
+                    'cgevent',
+                    'ai_newz',
+                    'denissezy',
+                    'NeuralShit',
+                    'dlinnlp',
+                    'opendatascience',
+                    'ScienceInquisition',
+                    'graphML']:
         rss_content = await get_rss_feed(channel)
 
         with open(f'gh-pages/{channel}.rdf', 'w') as f:
