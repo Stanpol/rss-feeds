@@ -142,7 +142,7 @@ def parse_feed(feed_tag: Tag) -> Feed:
             description = text_content.decode_contents()
 
     if text_content is not None:
-        title = text_content.find('div', {'class': 'js-message_text'}).find('b')
+        title = text_content.find('b')
         if title is not None:
             title=title.text.strip()
         else:
