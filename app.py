@@ -147,6 +147,8 @@ def parse_feed(feed_tag: Tag) -> Feed:
             title=title.text.strip()
         else:
             title = '...'
+    else:
+        title = '...'
     images = feed_tag.find_all('a', {'class': 'tgme_widget_message_photo_wrap'})
     for image in images:
         image_text = parse_image(image)
