@@ -141,7 +141,12 @@ def parse_feed(feed_tag: Tag) -> Feed:
         else:
             description = text_content.decode_contents()
 
-    title = text_content.find('div', {'class': 'js-message_text'}).find('b').text.strip() or 'No title'
+    if text_content is not None:
+        title = text_content.find('div', {'class': 'js-message_text'}).find('b')
+        if title is not None:
+            title=title.text.strip()
+        else:
+            title = '...'
     images = feed_tag.find_all('a', {'class': 'tgme_widget_message_photo_wrap'})
     for image in images:
         image_text = parse_image(image)
